@@ -18,7 +18,7 @@ The-Watcher/
 │   ├── ingest.py
 │   ├── process.py
 │   └── output.py
-├── output/
-|   └── .gitkeep
+├── outputs/
+│   └── .gitkeep
 ├── prompts/
-    └── extract_notes.md
+│   └── extract_notes.md
