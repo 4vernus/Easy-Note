@@ -1,0 +1,21 @@
+# Secrets
+.env
+
+# Python virtual environment
+.venv/
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+
+# Generated output files
+outputs/*
+!outputs/.gitkeep
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
