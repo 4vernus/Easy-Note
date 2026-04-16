@@ -2,7 +2,8 @@
 from pathlib import Path
 
 # Validate user input
-def accept_input(input_filepath):
+def accept_input(input_file):
+    input_filepath = Path(input_file)
     try:
         if input_filepath.suffix.lower() == ".txt":
             with open(input_filepath, "r") as f:
