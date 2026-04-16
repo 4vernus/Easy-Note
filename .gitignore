@@ -22,3 +22,6 @@ Thumbs.db
 
 # Project Structure
 project-structure.md
+
+# Claude Code local settings
+.claude/
