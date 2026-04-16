@@ -21,8 +21,8 @@ Current version is v0.2 — the foundation of a larger vision: a background agen
 Requires Python 3.14+ and [uv](https://github.com/astral-sh/uv).
 
 ```bash
-git clone https://github.com/4vernus/The-Watcher.git
-cd The-Watcher
+git clone https://github.com/4vernus/Easy-Note.git
+cd Easy-Note
 uv sync
 ```
 
