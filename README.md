@@ -29,13 +29,13 @@ Get a free key from [Google AI Studio](https://aistudio.google.com/apikey).
 ## Usage
 
 ```bash
-python main.py path/to/notes.txt
+uv run main.py path/to/notes.txt
 ```
 
 With a custom output name:
 
 ```bash
-python main.py path/to/notes.txt -o my_notes
+uv run main.py path/to/notes.txt -o my_notes
 ```
 
 Output files are saved as markdown in the `outputs/` folder.
