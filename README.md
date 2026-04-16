@@ -1,4 +1,4 @@
-# The Watcher
+# Easy Note
 
 A CLI tool that extracts structured study notes from documents using AI.
 
