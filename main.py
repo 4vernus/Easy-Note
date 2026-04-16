@@ -1,8 +1,8 @@
-import argparse
 from dotenv import load_dotenv
-from src.ingest import accept_input
+from src.ingest import read_file
 from src.output import write_output
 from src.process import process_input
+import argparse
 
 def main():
 
@@ -13,7 +13,7 @@ def main():
     args = parser.parse_args()
 
     try:
-        input_text = accept_input(args.file)
+        input_text = read_file(args.file)
         processed_text = process_input(input_text)
         write_output(args.file, processed_text, name=args.output)
     except FileNotFoundError:
